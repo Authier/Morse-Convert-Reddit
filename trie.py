@@ -40,7 +40,6 @@ class Morse_Trie:
 
 class Morse_T:
     def __init__(self, string):
-
         self.lazy_dict = {
             'A': '._', 'B': '_...', 'C': '_._.', 'D': '_..', 'E': '.', 'F': '.._.', 'G': '__.', \
                 'H': '....', 'I': '..', 'J': '.___', 'K': '_._', 'L': '._..', 'M': '__', 'N': '_.', \
@@ -90,7 +89,6 @@ class Morse_T:
         return curr_trie_node.character
     
     def convert_to_string(self):
-
         if self.morse is None:
             print("INVALID: CURRENTLY STRING")
             return
@@ -109,7 +107,6 @@ class Morse_T:
         self.morse = None
 
     def convert_to_morse(self):
-        
         if self.string is None:
             print("INVALID: CURRENTLY STRING")
             return
